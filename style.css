@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Black+Ops+One&family=Caveat&family=Dancing+Script&family=Edu+TAS+Beginner&family=Indie+Flower&family=Kdam+Thmor+Pro&family=Lobster&family=Nunito+Sans:ital,opsz@1,6..12&family=Outfit:wght@400;900&family=Pacifico&family=Rubik&family=Satisfy&family=Shadows+Into+Light&family=Zen+Dots&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section:first-child {
+    background: #000;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:first-child p {
+    font-family: monospace;
+}
+
+h1 {
+    font-family: 'Nunito sans', sans-serif;
+    font-size: 4rem;
+}
+
+h1 span {
+    font-family: 'Lobster';
+}
+
+section:not(:first-child) {
+    height: 100vh;
+    font-size: 2rem;
+    padding: 5rem;
+}
+
+
+
+section:nth-child(2) {
+    background: url(/images/image1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Outfit';
+}
+
+section:nth-child(2) p:nth-child(2) {
+    max-width: 650px;
+}
+
+section:nth-child(3) {
+    background: #860A35;
+    font-family: 'Nunito Sans';
+}
+
+section:nth-child(3) p:nth-child(2) {
+    max-width: 650px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+section:nth-child(4) {
+    background: url(/images/image3.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Edu TAS Beginner';
+}
+
+section:nth-child(4) p:nth-child(2) {
+    max-width: 650px;
+}
+
+
+
+section:nth-child(5) {
+    background: #1640D6;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kdam Thmor Pro';
+    color: white;
+}
+
+section:nth-child(5) p:nth-child(2) {
+    max-width: 780px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+section:nth-child(6) {
+    background: url(/images/image5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Dancing Script';
+}
+
+section:nth-child(6) p:nth-child(2) {
+    max-width: 650px;
+}
+
+
+section:nth-child(7) {
+    background: #F1EAFF;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lobster';
+}
+
+section:nth-child(7) p:nth-child(2) {
+    max-width: 650px;
+    margin-left: auto;
+    text-align: end;
+}
+
+
+section:nth-child(8) {
+    background: url(/images/image7.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Pacifico';
+}
+
+section:nth-child(8) p:nth-child(2) {
+    max-width: 650px;
+}
+
+
+section:nth-child(9) {
+    background: #61A3BA;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Caveat';
+}
+
+section:nth-child(9) p:nth-child(2) {
+    max-width: 650px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+section:nth-child(10) {
+    background: url(/images/image9.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Zen Dots';
+    color: white;
+}
+
+section:nth-child(10) p:nth-child(2) {
+    max-width: 650px;
+}
+
+
+section:nth-child(11) {
+    background: #A2C579;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Shadows Into Light';
+}
+
+section:nth-child(11) p:nth-child(2) {
+    max-width: 650px;
+    margin-left: auto;
+    text-align: end;
+}
+
+
+section:nth-child(12) {
+    background: url(/images//image11.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Indie Flower';
+    color: white;
+}
+
+section:nth-child(12) p:nth-child(2) {
+    max-width: 650px;
+}
+
+
+section:nth-child(13) {
+    background: #FFFFDD;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Satisfy';
+}
+
+section{
+    overflow: hidden;
+}
+
+.reveal-text{
+    overflow: hidden;
+}
+
+.font-name {
+    font-family: 'Rubik';
+    font-size: 1rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 700px) {
+    section:not(:first-child) {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section:not(:first-child) {
+        font-size: 1rem;
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    section:not(:first-child) {
+        font-size: 1rem;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
